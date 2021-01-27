@@ -1,0 +1,119 @@
+html {
+    background-image: 
+    linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.6)), 
+    url("img/background1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body, html {
+    height: 100vh;
+    overflow: auto;
+}
+
+.container-top {
+    width: 100%;
+	height: 115px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background-color: rgba(130,0,0,.5);
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.banner-top {
+	font-size: 42pt;
+	padding-left: 5%;
+}
+
+ul {
+	list-style: none;
+	padding-right: 5%;
+}
+
+li {
+    display: inline;
+    margin: 5px 3px 3px 5px;
+    font-size: 15pt;
+}
+
+.container-top li:hover {
+	font-size: 16pt;
+	text-shadow: 0px 0px whitesmoke;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.main-page {
+	width: 730px;
+	height: 140px;
+	color: white;
+	background: rgba(130,0,0,.5);
+	font-size: 30pt;
+	font-family: 'Petit Formal Script', cursive;
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu {
+	width: 80%;
+	background-color: rgba(130,0,0,.5);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.food {
+	color: white;
+	font-family: 'Petit Formal Script', cursive;
+    flex-basis: 33%;
+    height: 362px;
+	outline: 1px solid white;
+	padding: 15px;
+	box-sizing: border-box;
+	outline-offset: -15px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 17pt;
+}
+
+.food h1, .food p, .food span {
+    margin: 15px;
+    text-align: center;
+}
+
+.contact {
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Petit Formal Script', cursive;
+	background-color: rgba(130,0,0,.5);
+	border-radius: 5px;
+}
+
+.contact p, .contact ul {
+	margin: 15px;
+}
+
+.contact li {
+	display: inherit;
+	margin: 10px;
+}
