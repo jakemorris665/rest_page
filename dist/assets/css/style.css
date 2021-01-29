@@ -42,7 +42,8 @@ li {
 
 .container-top li:hover {
 	font-size: 16pt;
-	text-shadow: 0px 0px whitesmoke;
+    text-shadow: 0px 0px whitesmoke;
+    cursor: pointer;
 }
 
 .container {
@@ -116,4 +117,45 @@ li {
 .contact li {
 	display: inherit;
 	margin: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+    .food {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .food {
+        flex-basis: 100%;
+    }
+
+    .contact {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .main-page{
+        width: 400px;
+        font-size: 28pt;
+    }
+
+    .container-top{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .banner-top{
+        font-size: 32pt;
+    }
+
+    .container{
+        margin-top: 11%;
+    }
+
+    .main-page{
+        font-size: 26pt;
+    }
 }
